@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/rtc-io/rtc-plugin-node/issues"
   },
-  "homepage": "https://github.com/rtc-io/rtc-plugin-node"
+  "homepage": "https://github.com/rtc-io/rtc-plugin-node",
+  "dependencies": {
+    "wrtc": "0.0.20"
+  },
+  "devDependencies": {
+    "rtc-quickconnect": "rtc-io/rtc-quickconnect#node-compat",
+    "tape": "^2",
+    "uuid": "^1"
+  }
 }
