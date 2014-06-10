@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/rtc-io/rtc-plugin-node",
   "dependencies": {
-    "wrtc": "DamonOehlman/node-webrtc#empty-streams"
+    "wrtc": "js-platform/node-webrtc"
   },
   "devDependencies": {
     "rtc-quickconnect": "rtc-io/rtc-quickconnect",
