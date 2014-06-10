@@ -27,7 +27,7 @@
     "wrtc": "0.0.20"
   },
   "devDependencies": {
-    "rtc-quickconnect": "rtc-io/rtc-quickconnect#node-compat",
+    "rtc-quickconnect": "rtc-io/rtc-quickconnect",
     "tape": "^2",
     "uuid": "^1"
   }
