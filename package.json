@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "rtc-quickconnect": "rtc-io/rtc-quickconnect",
+    "rtc-switchboard": "~0.10",
     "tape": "^2",
     "uuid": "^1"
   }
