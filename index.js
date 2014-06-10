@@ -15,6 +15,17 @@ var webrtc = require('wrtc');
 
   <<< examples/datachannel.js
 
+  If you'd like to take it for a spin, then clone this repo, install
+  [beefy](https://github.com/chrisdickinson/beefy) (`npm install -g beefy`) and take
+  it for a spin:
+
+  - run `beefy examples/datachannel.js` in terminal, and open your browser at:
+
+    http://localhost:9966/
+
+  - run `node examples/datachannel.js` in another terminal and you should see console
+    output of `dc opened` between the two :)
+
 **/
 exports.supported = function(platform) {
   return platform && platform.browser === 'node';
