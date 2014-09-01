@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/rtc-io/rtc-plugin-node",
   "dependencies": {
-    "wrtc": "js-platform/node-webrtc"
+    "wrtc": "js-platform/node-webrtc#develop"
   },
   "devDependencies": {
-    "rtc-quickconnect": "rtc-io/rtc-quickconnect",
+    "rtc-quickconnect": "^2.7.0",
     "rtc-switchboard": "~0.10",
     "tape": "^2",
     "uuid": "^1"
