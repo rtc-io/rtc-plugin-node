@@ -8,7 +8,7 @@ thanks to the awesome [node-webrtc](https://github.com/js-platform/node-webrtc)
 
 [![NPM](https://nodei.co/npm/rtc-plugin-node.png)](https://nodei.co/npm/rtc-plugin-node/)
 
-[![Build Status](https://img.shields.io/travis/rtc-io/rtc-plugin-node.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-plugin-node) [![experimental](https://img.shields.io/badge/stability-experimental-red.svg)](https://github.com/badges/stability-badges) 
+[![Build Status](https://img.shields.io/travis/rtc-io/rtc-plugin-node.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-plugin-node) [![experimental](https://img.shields.io/badge/stability-experimental-red.svg)](https://github.com/dominictarr/stability#experimental) 
 
 ## Example Usage
 
