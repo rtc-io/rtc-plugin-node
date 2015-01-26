@@ -27,9 +27,9 @@
     "wrtc": "0.0.46"
   },
   "devDependencies": {
-    "rtc-quickconnect": "^2.7.0",
-    "rtc-switchboard": "~0.10",
-    "tape": "^2",
-    "uuid": "^1"
+    "rtc-quickconnect": "^4.1.1",
+    "rtc-switchboard": "^2.2.0",
+    "tape": "^3.4.0",
+    "uuid": "^2.0.1"
   }
 }
