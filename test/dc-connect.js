@@ -83,7 +83,7 @@ test('dc 1 send', function(t) {
 });
 
 test('close connection 0 and wait for dc close notifications', function(t) {
-  var timer = setTimeout(t.fail.bind(t, 'timed out'), 10000);
+  var timer = setTimeout(t.fail.bind(t, 'timed out'), 20000);
   var closedCount = 0;
 
   function handleClose(peerId, datachannel, label) {
