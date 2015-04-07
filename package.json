@@ -29,7 +29,7 @@
   "devDependencies": {
     "rtc-quickconnect": "^4.1.1",
     "rtc-switchboard": "^2.2.0",
-    "tape": "^3.4.0",
+    "tape": "^4.0.0",
     "uuid": "^2.0.1"
   }
 }
