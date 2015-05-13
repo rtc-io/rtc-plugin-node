@@ -4,8 +4,9 @@ var opts = {
   plugins: [ require('..') ]
 };
 
-quickconnect('http://localhost:3000/', opts)
+quickconnect('https://switchboard.rtc.io/', opts)
   .createDataChannel('test')
   .on('channel:opened:test', function(id, dc) {
     console.log('dc opened');
   });
+

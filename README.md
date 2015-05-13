@@ -22,7 +22,7 @@ var opts = {
   plugins: [ require('rtc-plugin-node') ]
 };
 
-quickconnect('http://localhost:3000/', opts)
+quickconnect('https://switchboard.rtc.io/', opts)
   .createDataChannel('test')
   .on('channel:opened:test', function(id, dc) {
     console.log('dc opened');
@@ -31,7 +31,7 @@ quickconnect('http://localhost:3000/', opts)
 ```
 
 If you'd like to take it for a spin, then clone this repo, install
-[beefy](https://github.com/chrisdickinson/beefy) (`npm install -g beefy`) and take
+[beefy](https://github.com/chrisdickinson/beefy) and [browserify](browserify.org) (`npm install -g beefy browserify`) and take
 it for a spin:
 
 - run `beefy examples/datachannel.js` in terminal, and open your browser at:
