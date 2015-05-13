@@ -88,7 +88,9 @@ test('close connection 0 and wait for dc close notifications', function(t) {
 
   function handleClose(peerId, datachannel, label) {
     t.equal(label, 'test', 'label == test');
-    t.ok(datachannel.readyState, '2nd arg is a data channel');
+    // changed test from 'readyState' to 'close' 
+    // jtj02 - 13 May 2015
+    t.ok(datachannel.close, '2nd arg is a data channel');
     t.equal(typeof peerId, 'string', '1st args is a string');
 
     closedCount += 1;
