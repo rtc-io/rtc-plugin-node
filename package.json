@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/rtc-io/rtc-plugin-node",
   "dependencies": {
-    "wrtc": "0.0.55"
+    "wrtc": "0.0.58"
   },
   "devDependencies": {
     "rtc-quickconnect": "^4.1.1",
