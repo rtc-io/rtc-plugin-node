@@ -8,7 +8,7 @@ thanks to the awesome [node-webrtc](https://github.com/js-platform/node-webrtc)
 
 [![NPM](https://nodei.co/npm/rtc-plugin-node.png)](https://nodei.co/npm/rtc-plugin-node/)
 
-[![Build Status](https://img.shields.io/travis/rtc-io/rtc-plugin-node.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-plugin-node) [![experimental](https://img.shields.io/badge/stability-experimental-red.svg)](https://github.com/dominictarr/stability#experimental) 
+[![Build Status](https://api.travis-ci.org/rtc-io/rtc-plugin-node.svg?branch=master)](https://travis-ci.org/rtc-io/rtc-plugin-node) [![experimental](https://img.shields.io/badge/stability-experimental-red.svg)](https://github.com/dominictarr/stability#experimental) 
 
 ## Example Usage
 
@@ -28,10 +28,11 @@ quickconnect('https://switchboard.rtc.io/', opts)
     console.log('dc opened');
   });
 
+
 ```
 
 If you'd like to take it for a spin, then clone this repo, install
-[beefy](https://github.com/chrisdickinson/beefy) and [browserify](browserify.org) (`npm install -g beefy browserify`) and take
+[beefy](https://github.com/chrisdickinson/beefy) (`npm install -g beefy`) and take
 it for a spin:
 
 - run `beefy examples/datachannel.js` in terminal, and open your browser at:
@@ -45,7 +46,7 @@ it for a spin:
 
 ### Apache 2.0
 
-Copyright 2014 National ICT Australia Limited (NICTA)
+Copyright 2015 National ICT Australia Limited (NICTA)
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
